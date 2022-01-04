@@ -1,11 +1,23 @@
-*{
+body{
+    text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-}
-canvas{
-    background: radial-gradient( rgba(0, 0, 0, 0.796), rgba(0, 0, 0, 0.633), rgba(0, 0, 0, 0)),
+    background: radial-gradient( rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.565), rgba(0, 0, 0, 0.918)),
     url(./1.jpg);
+    z-index: -2;
+    align-items: center;
     background-position: center;
+}
+
+#snail{
+    position: absolute;
+    margin: auto;
+    width: 1000px;
+    height:500px;
+    z-index:-1  
+}
+#myCanvas{
+    margin: auto
 }
