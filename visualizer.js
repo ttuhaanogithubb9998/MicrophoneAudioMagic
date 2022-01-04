@@ -7,7 +7,7 @@ function main() {
     console.log(heightCanvas)
     canvas.width = 1000;
     canvas.height = 500;
-    snail.style.transform = `scale(0.58, 0.58) translate(-${canvas.width / 2*0.1}px, -${canvas.height / 2*0.3}px)  `
+    snail.style.transform = `scale(0.58, 0.58) translate(25px, -${canvas.height / 2*0.26}px)  `
     
 
     class Bar {
